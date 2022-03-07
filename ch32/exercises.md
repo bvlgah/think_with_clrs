@@ -64,7 +64,7 @@ Therefore, ![update_piq][\pi \left\[ q + 1 \right\] = \delta \left( \pi \left\[ 
 [P_{\pi \left\[ q \right\]} \sqsupset P_q \Rightarrow P_{\pi \left\[ q \right\]} P \left\[ q + 1 \right\] \sqsupset P_q P \left\[ q + 1 \right\]]: http://latex.codecogs.com/svg.latex?P_{\pi&space;\left\[&space;q&space;\right\]}&space;\sqsupset&space;P_q&space;\Rightarrow&space;P_{\pi&space;\left\[&space;q&space;\right\]}&space;P&space;\left\[&space;q&space;&plus;&space;1&space;\right\]&space;\sqsupset&space;P_q&space;P&space;\left\[&space;q&space;&plus;&space;1&space;\right\] "http://latex.codecogs.com/svg.latex?P_{\pi \left\[ q \right\]} \sqsupset P_q \Rightarrow P_{\pi \left\[ q \right\]} P \left\[ q + 1 \right\] \sqsupset P_q P \left\[ q + 1 \right\]"
 [\pi \left\[ q + 1 \right\] = \delta \left( \pi \left\[ q \right\], P \left\[ q + 1 \right\] \right)]: http://latex.codecogs.com/svg.latex?\pi&space;\left\[&space;q&space;&plus;&space;1&space;\right\]&space;=&space;\delta&space;\left(&space;\pi&space;\left\[&space;q&space;\right\],&space;P&space;\left\[&space;q&space;&plus;&space;1&space;\right\]&space;\right) "http://latex.codecogs.com/svg.latex?\pi \left\[ q + 1 \right\] = \delta \left( \pi \left\[ q \right\], P \left\[ q + 1 \right\] \right)"
 
-Here is an implementation in Rust:
+Here is an implementation in Rust (for folks who are curious about the use of `RefCell`, I wrote a small [article][A Use Case of RefCell] about it):
 
 ```Rust
 use std::collections::HashMap;
@@ -129,3 +129,4 @@ impl Solution {
     }
 }
 ```
+[A Use Case of RefCell]: https://pjatgithub.github.io/posts/a-use-case-of-refcell/ "A Use Case of RefCell"
