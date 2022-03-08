@@ -35,9 +35,11 @@ This contradiction means that ![k_eq_i][k = i].
 
 Finally, the algorithm is:
 
-1. For each ![i][i], compute ![s_eq_i_mod_i_minus_pii][s = i \mod \left( i - \pi \left\[ i \right\] \right)].
+1. Compute the ![pi][\pi] function.
 
-2. If ![s_eq_zero][s = 0], ![r_eq_i_divided_by_i_minus_pii][r = \frac{i}{i - \pi \left\[ i \right\]}]; otherwise,
+2. For each ![i][i], compute ![s_eq_i_mod_i_minus_pii][s = i \mod \left( i - \pi \left\[ i \right\] \right)].
+
+3. If ![s_eq_zero][s = 0], ![r_eq_i_divided_by_i_minus_pii][r = \frac{i}{i - \pi \left\[ i \right\]}]; otherwise,
 ![r_eq_1][r = 1].
 
 The running time of the algorithm is ![o_p_size][O \left( \left| P \right| \right)].
@@ -88,3 +90,4 @@ The running time of the algorithm is ![o_p_size][O \left( \left| P \right| \righ
 [r = \frac{i}{i - \pi \left\[ i \right\]}]: http://latex.codecogs.com/svg.latex?r&space;=&space;\frac{i}{i&space;-&space;\pi&space;\left\[&space;i&space;\right\]} "http://latex.codecogs.com/svg.latex?r = \frac{i}{i - \pi \left\[ i \right\]}"
 [r = 1]: http://latex.codecogs.com/svg.latex?r&space;=&space;1 "http://latex.codecogs.com/svg.latex?r = 1"
 [O \left( \left| P \right| \right)]: http://latex.codecogs.com/svg.latex?O&space;\left(&space;\left|&space;P&space;\right|&space;\right) "http://latex.codecogs.com/svg.latex?O \left( \left| P \right| \right)"
+[\pi]: http://latex.codecogs.com/svg.latex?\pi "http://latex.codecogs.com/svg.latex?\pi"
