@@ -1,5 +1,8 @@
 # Thinking with CLRS
 
-## Chapter 32 String matching
+## Exercises
 
-[Exercises](/ch32/exercises.md)
+[Chapter 3 Growth of Functions](/ch03/exercises.md)
+
+[Chapter 32 String matching](/ch32/exercises.md)
+
